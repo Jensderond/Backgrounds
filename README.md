@@ -10,7 +10,7 @@ And click on 'your application' to create a new one.
 Now add your client ID in MainActivity.java on line 81:
 
 ```java
-    private static final String CLIENT_ID = "?client_id=YOUR_CLIENT_TOKEN_HERE";
+    private static final String APPLICATION_ID = "YOUR_APPLICATION_TOKEN_HERE";
 ```
 
 And you're good to go!
