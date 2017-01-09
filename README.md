@@ -16,3 +16,6 @@ Now add your Application ID in MainActivity.java on line 81:
 And you're good to go!
 
 
+###Preview
+
+![alt text](https://github.com/Jensderond/Backgrounds/blob/master/preview.png "Preview")
