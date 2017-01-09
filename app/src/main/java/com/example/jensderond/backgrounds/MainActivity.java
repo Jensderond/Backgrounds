@@ -78,8 +78,8 @@ public class MainActivity extends Activity implements Response.Listener, Respons
 
     WebView webView;
     Activity activity = this;
-    private static final String CLIENT_ID = "?client_id=YOUR_CLIENT_TOKEN_HERE";
-    private static final String API = "https://api.unsplash.com/";
+    private static final String APPLICATION_ID = "YOUR_APPLICATION_TOKEN_HERE";
+    private static final String API_BASE_URL = "https://api.unsplash.com/";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -145,7 +145,7 @@ public class MainActivity extends Activity implements Response.Listener, Respons
     protected void onStart() {
         super.onStart();
 
-        final MyJSONObjRequest request = new MyJSONObjRequest(Request.Method.GET, "https://api.unsplash.com/photos/random/?client_id=a5b669605224fb7f9b3d24ea23d600c298a7377d308cd5b96ecca4ebef3f0726",new JSONObject(), this,this);
+        final MyJSONObjRequest request = new MyJSONObjRequest(Request.Method.GET, API_BASE_URL+"/photos/random/?client_id="+APPLICATION_ID,new JSONObject(), this,this);
         request.setTag("randomRequestTAG");
 
         start.setOnClickListener(new View.OnClickListener() {
