@@ -1,9 +1,18 @@
 #Backgrounds
 
-To make it work add a client ID in MainActivity.java on line 81:
+
+###First
+Create your account at [Unsplash](https://unsplash.com/join).
+
+When you have your account go to [the developers API documents](https://unsplash.com/developers)
+And click on 'your application' to create a new one.
+
+Now add your client ID in MainActivity.java on line 81:
 
 ```java
     private static final String CLIENT_ID = "?client_id=YOUR_CLIENT_TOKEN_HERE";
 ```
+
+And you're good to go!
 
 
