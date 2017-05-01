@@ -1,7 +1,7 @@
-#Backgrounds
+# Backgrounds
 
 
-###First
+### First
 Create your account at [Unsplash](https://unsplash.com/join).
 
 When you have your account go to [the developers API documents](https://unsplash.com/developers)
@@ -16,6 +16,6 @@ Now add your Application ID in MainActivity.java on line 81:
 And you're good to go!
 
 
-###Preview
+### Preview
 
 ![alt text](https://github.com/Jensderond/Backgrounds/blob/master/preview.png "Preview")
